@@ -1,0 +1,100 @@
+/* index styles */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('../img/fondo.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  flex-direction: column; 
+}
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.411);
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid #A4FFBC;
+  width: 700px;
+  height: 300px;
+}
+button {
+  background-color: rgba(40, 40, 40, 0.411);
+}
+.palette-mosaic-regular {
+  font-family: "Palette Mosaic", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  -webkit-text-stroke: 2px #A4FFBC; /* Borde blanco de 2px */
+  font-size: 150px;
+}
+.piedra-regular {
+  font-family: "Piedra", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+}
+.button-play {
+  background-color: rgba(0, 0, 0, 0.553);
+  border: 2px solid #A4FFBC;
+  padding: 5px 40px;
+  width: 350px;
+  cursor: pointer;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.button-play:hover {
+  background-color: rgba(0, 0, 0, 0.779);
+  border-radius: 20px;
+}
+.button-help {
+  background-color: rgba(0, 0, 0, 0.553);
+  border: 2px solid #A4FFBC;
+  padding: 5px 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+}
+.button-help:hover {
+  background-color: rgba(0, 0, 0, 0.779);
+  border-radius: 50%;
+}
+
+
+
+/* help styles */
+.button {
+  background-color: rgba(0, 0, 0, 0.553);
+  border: 2px solid #A4FFBC;
+  padding: 5px 40px;
+  width: 350px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.779);
+  border-radius: 20px;
+}
+.letter{
+  font-family: "Piedra", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+.contenedor-help {
+  background-color: rgba(40, 39, 39, 0.598);
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid #A4FFBC;
+  width: 1000px;
+}
